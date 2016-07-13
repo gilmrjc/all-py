@@ -12,7 +12,7 @@ RUN set -x \
     && apt-get install -y --no-install-recommends pypy \
     && apt-get install -y --no-install-recommends python-pip python3-pip \
     && apt-get install -y --no-install-recommends python-dev python3-dev \
-    && apt-get install -y --no-install-recommends build-essencial \
+    && apt-get install -y --no-install-recommends build-essential \
     && apt-get purge -y --auto-remove software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
