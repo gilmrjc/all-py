@@ -10,6 +10,9 @@ RUN set -x \
     && apt-get update \
     && apt-get install -y --no-install-recommends $pythonVersions \
     && apt-get install -y --no-install-recommends pypy \
+    && apt-get install -y --no-install-recommends python-pip python3-pip \
+    && apt-get install -y --no-install-recommends python-dev python3-dev \
+    && apt-get install -y --no-install-recommends build-essencial \
     && apt-get purge -y --auto-remove software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
