@@ -12,6 +12,7 @@ RUN set -x \
     && apt-get install -y --no-install-recommends pypy \
     && apt-get install -y --no-install-recommends python-pip python3-pip \
     && apt-get install -y --no-install-recommends python-dev python3-dev \
+    && apt-get install -y --no-install-recommends pypy-dev \
     && apt-get install -y --no-install-recommends build-essential \
     && apt-get install -y --no-install-recommends libtiff5-dev libjpeg8-dev zlib1g-dev \
     libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk \
